@@ -84,17 +84,17 @@ This code is for **UNIX**-based systems (Linux, macOS) only.
 
 3. Run the VM with an LC-3 program file:
    ```bash
-   ./lc3 program.obj
+   ./build/lc3 program.obj
    ```
 
 4. **Test the VM with Example Binaries**:
    - **2048 Game**:
      ```bash
-     ./lc3 2048.obj
+     ./build/lc3 2048.obj
      ```
    - **Rogue-like Game**:
      ```bash
-     ./lc3 rogue.obj
+     ./build/lc3 rogue.obj
      ```
 
 ---
